@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "invhud",
+  "version": "${version}",
+  "name": "Inventory HUD",
+  "description": "A movable, always-visible HUD that mirrors your full inventory in real time.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.invhud.InventoryHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
